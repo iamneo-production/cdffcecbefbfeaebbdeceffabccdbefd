@@ -3,22 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompt Dialog Example</title>
+    <title>Addition Example</title>
 </head>
 <body>
-    <h1>Prompt Dialog Example</h1>
+    <h1>Addition Example</h1>
 
-    <button onclick="showPrompt()">Click Me</button>
+    <button onclick="calculateSum()">Calculate Sum</button>
 
-    <script>
-        function showPrompt() {
-            const userInput = prompt('Please enter your name:');
-            if (userInput !== null) {
-                alert('You entered: ' + userInput);
-            } else {
-                alert('No input provided.');
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
